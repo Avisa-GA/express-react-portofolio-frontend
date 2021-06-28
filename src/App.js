@@ -1,4 +1,4 @@
-
+import 'materialize-css/dist/css/materialize.min.css';
 import './App.css';
 
 //  import components
