@@ -28,12 +28,12 @@ function Projects(props) {
   const loaded = () => {
     return projects.map((project, index) => (
       
-      
+    
     <div style={{
       marginLeft: "30%"}} className="row" key={index}>
       <div class="col s12 m7">
       <div class="card">
-      <div class="card-image">
+      <div style={{marginTop: "20%"}} class="card-image">
          <img src={project.image} />
          <span style={{fontWeight: "bold", marginLeft: "60%", color: "yellow"}}  class="card-title">{project.name}</span>
          </div>

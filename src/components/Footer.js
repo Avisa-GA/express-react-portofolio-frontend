@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     return (
-      <footer class="page-footer">
+      <footer style={{marginTop: "50%"}} class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
