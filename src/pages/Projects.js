@@ -30,7 +30,7 @@ function Projects(props) {
       
       
     <div style={{
-      marginLeft: "40%"}} className="row" key={index}>
+      marginLeft: "30%"}} className="row" key={index}>
       <div class="col s12 m7">
       <div class="card">
       <div class="card-image">
