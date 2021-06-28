@@ -27,16 +27,28 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return projects.map((project, index) => (
-    <div key={index}>
-         <h1>{project.name}</h1>
+      
+      
+    <div style={{
+      marginLeft: "40%"}} className="row" key={index}>
+      <div class="col s12 m7">
+      <div class="card">
+      <div class="card-image">
          <img src={project.image} />
-         <a href={project.git}>
-           <button>Github</button>
-         </a>
-         <a href={project.live}>
-           <button>live site</button>
-         </a>
+         <span style={{fontWeight: "bold", marginLeft: "60%", color: "yellow"}}  class="card-title">{project.name}</span>
+         </div>
+         <div class="card-action">
          
+         </div>
+         <a href={project.git}>
+           Github
+         </a>
+         <br />
+         <a href={project.live}>
+           live site
+         </a>
+         </div>
+         </div>  
     </div>
     ));
   }
