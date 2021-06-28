@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from "react-router-dom";
+import Projects from '../pages/Projects';
 
 function Header(props) {
   // inline style for the nav tag

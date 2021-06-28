@@ -11,13 +11,15 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
+// https://exp-react-porto-front.herokuapp.com/
 function App() {
   const URL = "https://express-react-portofolio-back.herokuapp.com/"
+ 
   return (
     <div className="App">
      <Header />
      <Switch>
-       <Route ex path="/">
+       <Route exact path="/">
          <Home />
        </Route>
        <Route path="/projects">
