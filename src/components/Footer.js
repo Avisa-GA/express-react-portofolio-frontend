@@ -5,7 +5,7 @@ function Footer(props) {
       <footer style={{marginTop: "50%"}} class="page-footer">
       <div class="container">
         <div class="row">
-          <div style={{justifyContent: "center"}} class="col l6 s12">
+          <div style={{justifyContent: "center", alignItems: "center"}} class="col l6 s12">
             <h5 class="white-text">Footer Content</h5>
             <p class="grey-text text-lighten-4">There are many variations of passages of Lorem Ipsum availablealteration in some form, by injected humour.</p>
           </div>
